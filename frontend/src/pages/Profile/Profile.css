@@ -1,0 +1,34 @@
+.pageHeader{
+  margin-top: -70px;
+  margin-left: -70px;
+}
+.tableheaders{
+  background-color:cornflowerblue;
+  color: white;
+}
+#user_imagenew{
+  margin-top: -9px;
+  margin-left: -2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.avatar1 img {
+  margin-top: -12px;
+  margin-left: 30px;
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+}
+
+.rounded-circle1 {
+  border-radius: 50% !important;
+}
+
+#edit-image-button{
+  color:white;
+  background-color: #151b54;
+  height:30px;
+  width:70px;
+  
+}
