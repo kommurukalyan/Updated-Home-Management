@@ -7,7 +7,6 @@ import { createContext, useState } from 'react'
 import Reset from './pages/ResetPassword/ResetPassword'
 import Dashboard from './pages/Dashboard/Dashboard'
 import Home from './pages/Home/Home'
-import Employees from './pages/Employees/Employees'
 import Users from './pages/User/Users'
 import Subscriptions from './pages/Subscriptions/Subscriptions'
 import Documents from './pages/Documents/Documents'
@@ -44,7 +43,6 @@ function App() {
     <Route path='/reset' element={<Reset />}></Route>
     <Route path='/dashboard' element={<Dashboard />}>
         <Route path='/dashboard/home' element={<Home />}></Route>
-     {/* <Route path='/dashboard/users' element={<Employees />}></Route>  */}
      <Route path='/dashboard/subscriptions' element={<Subscriptions />}></Route> 
      <Route path='/dashboard/documents' element={<Documents />}></Route> 
      <Route path='/dashboard/users' element={<Users/>}></Route> 
